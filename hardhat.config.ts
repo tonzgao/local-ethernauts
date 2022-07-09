@@ -1,5 +1,6 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomiclabs/hardhat-waffle";
+import "@nomiclabs/hardhat-web3";
 
 const config: HardhatUserConfig = {
   solidity: {
